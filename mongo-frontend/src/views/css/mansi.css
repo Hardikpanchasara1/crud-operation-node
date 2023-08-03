@@ -1,0 +1,156 @@
+.sidebar{
+    background-color: #252628;
+}
+
+.headermain{
+    background-color: #252628;
+}
+
+.header-tog{
+    color: #9ca3af !important;
+}
+
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:14px;
+    left: 20px;
+    color: #a2a0a2 !important;
+
+}
+
+
+.form-input{
+
+    height: 40px;
+    width: 100%;
+    text-indent: 33px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #ebedef;
+}
+
+.form-input::placeholder{
+    color: #9ca3af;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+
+/* ------------ Project ------------- */
+
+.add-project-btn{
+    background-color: #0f9299 !important;
+    border: none !important;
+}
+
+.searchbar-input{
+    width: 200px;
+    height: 40px;
+    text-indent: 33px;
+    border-radius: 5px;
+}
+
+.project-search-bar{
+    position: relative;
+}
+
+.project-search-bar .fa-search{
+
+    position: absolute;
+    top:14px;
+    left: 20px;
+    color: #a2a0a2 !important;
+}
+
+.project-select:focus,
+.searchbar-input:focus,
+.edit-input:focus{
+
+    box-shadow: none;
+    border-color: #9ca3af;
+}
+
+/* .table-container{
+    width: 1300px;
+} */
+
+.table-scroll{
+    overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  }
+
+.edit-input{
+   border-radius: 10px; 
+}
+
+.edit-input:focus{
+    color: blue;
+}
+
+.edit-checkbox{
+    font-size: 14px;
+}
+
+.edit-icon-btn{
+    background-color: none !important;
+}
+
+.edit-btn{
+    background-color: #0f9299;
+    border: none;
+}
+
+.edit-btn:hover{
+    background-color: #9ca3af;
+    border: none;
+}
+
+/* #mySelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    Add custom background image for arrow 
+    background-image: url("src/assets/images/arrow-drop-down.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+     Add padding-right to adjust for arrow 
+    padding-right: 30px !important;
+  } */
+
+/* #flexRadioDefault1:focus,
+#flexRadioDefault2:focus{
+    background-color: #9ca3af;
+    border: #9ca3af;
+    box-shadow: #a2a0a2;
+    transition: box-shadow 0.01s ease-out;
+} */
+
+
+
+@media (max-width: 767px) {
+    .p-2 {
+        margin-top: 10px;
+    }
+    .searchbar-input {
+        width: 107%;
+    }
+}
+
+.p-2 {
+    padding: 0 !important;
+}
+
+/* .row > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+} */

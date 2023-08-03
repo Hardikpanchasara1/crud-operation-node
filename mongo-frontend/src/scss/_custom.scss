@@ -1,0 +1,61 @@
+// Here you can add other styles
+.container-fluid{
+    flex-wrap: nowrap !important;
+}
+
+// .mt-5 {
+//     width: auto;
+// }
+
+// .body{
+//     background-color: white;
+// }
+.bg-light {
+    background-color: white !important;
+}
+.mb-4 {
+    margin-bottom: 0 !important;
+}
+.px-3 {
+    background-color: #ebedef;
+}
+
+.sidebar {
+    background-color: #0b699e;
+    background-image: linear-gradient(to bottom, #0b699e, #1ef08d);
+    border-radius: 0px 38px 38px 0px;
+}
+
+.sidebar-brand {
+    background: none !important;
+}
+
+.header-toggler {
+    background-color: white !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adjust the shadow color and size as needed */
+}
+  
+
+.headermain {
+    background-color: white !important;
+    
+}
+
+.sidebar-nav .nav-link.active {
+    background-color: #ebedef !important;
+    color: black !important;
+    border-radius: 0px 22px 22px 0px;
+    width: 95%;
+}
+
+.modal-content {
+    background-color: #ebedef;
+}
+
+.card-body {
+    height: 500px;
+}
+
+// .progress-bar {
+//     background-color: #0f9299 !important;
+// }

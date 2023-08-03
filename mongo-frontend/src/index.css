@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+.pagination.pagination-new .page-item .page-link {
+  color: #ffffff; /* Font color */
+  background-color: #0f9299; /* Background color */
+  border-color: #0f9299; /* Border color */
+}
+
+.pagination.pagination-new .page-item .page-link:hover {
+  background-color: #09acaf; /* Background color on hover */
+  border-color: #09acaf; /* Border color on hover */
+}
+
+.pagination.pagination-new .page-item.disabled .page-link {
+  color: #6c757d; /* Font color for disabled link */
+  background-color: #f8f9fa; /* Background color for disabled link */
+}
